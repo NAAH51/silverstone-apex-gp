@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Silverstone Apex GP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="game-root" aria-label="Silverstone Apex GP p5.js racing game"></main>
+    <script src="vendor/p5.min.js"></script>
+    <script>
+      const gameScript = document.createElement("script");
+      gameScript.src = "game.js?build=" + Date.now();
+      document.body.appendChild(gameScript);
+    </script>
+  </body>
+</html>
